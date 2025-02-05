@@ -99,6 +99,11 @@
             border: 1px solid #ddd;
             border-radius: 5px;
         }
+
+        .contact-info {
+            margin: 20px 0;
+            font-size: 1.1em;
+        }
     </style>
 </head>
 <body>
@@ -137,17 +142,18 @@
 
     <section class="container" id="about">
         <h2>About Us</h2>
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 30px;">
-            <div>
-                <h3>Leading Environmental Innovation</h3>
-                <p>Synsyma Technologies combines cutting-edge technology with environmental expertise to deliver sustainable solutions for businesses and communities. Our team of certified professionals brings decades of experience in environmental management and sustainable development.</p>
-            </div>
-            <img src="team-photo.jpg" alt="Our Team" style="width: 100%; border-radius: 10px;">
+        <div style="margin-top: 30px;">
+            <h3>Leading Environmental Innovation</h3>
+            <p>Synsyma Technologies combines cutting-edge technology with environmental expertise to deliver sustainable solutions for businesses and communities. Our team of certified professionals brings decades of experience in environmental management and sustainable development.</p>
         </div>
     </section>
 
     <section class="container" id="contact">
         <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:synsymatechnologies@gmail.com">synsymatechnologies@gmail.com</a></p>
+            <p>Phone: <a href="tel:6479664606">(647) 966-4606</a></p>
+        </div>
         <div class="contact-form">
             <form>
                 <input type="text" placeholder="Name" required>
@@ -160,10 +166,9 @@
 
     <footer>
         <p>&copy; 2023 Synsyma Technologies. All rights reserved.</p>
-        <div style="margin-top: 20px;">
-            <a href="#" style="color: white; margin: 0 10px;">LinkedIn</a>
-            <a href="#" style="color: white; margin: 0 10px;">Twitter</a>
-            <a href="#" style="color: white; margin: 0 10px;">Sustainability Report</a>
+        <div class="contact-info" style="margin-top: 20px;">
+            <p>Email: <a href="mailto:synsymatechnologies@gmail.com" style="color: white;">synsymatechnologies@gmail.com</a></p>
+            <p>Phone: <a href="tel:6479664606" style="color: white;">(647) 966-4606</a></p>
         </div>
     </footer>
 </body>
